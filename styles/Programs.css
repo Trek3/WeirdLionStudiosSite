@@ -1,0 +1,37 @@
+body{
+	margin:0px;
+	background-image:url("../resources/images/InfoWood.jpg") repeat;
+	}
+
+#programs_header h1{
+	display:block;
+	margin:0px 400px 0px;
+	color:#cccccc;
+	margin-top:0px;
+	font:60px arial;
+}
+#programs_page {
+	position:fixed;
+    bottom:0px;
+    float: left;
+    line-height: 10px; 
+    left:0px;
+	height:40px;
+	width:100%;
+	border-top:1px solid rgba(0,0,0,0.4);
+	background:rgba(0,0,0,0.4);
+	box-shadow:inset 0px 1px rgba(255,255,255,0.3),inset 0px 10px rgba(255,255,255,0.2),inset 0px 10px 20px rgba(255,255,255,0.25),inset 0px -15px 30px rgba(0,0,0,0.3);
+}
+
+#programs_page ul li{
+	background-color:rgba(0,0,0,0.4);
+	font:16px arial;
+}
+
+#programs_page p{
+	display:block;
+	margin:0px 400px 0px;
+	color:#cccccc;
+	margin-top:200px;
+	font:16px arial;
+}
