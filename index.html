@@ -11,109 +11,119 @@
 		<meta charset="utf-8">
 		
 		<link rel="stylesheet" type="text/css" href="styles/HomeStyle.css">
-		<link rel="stylesheet" type="text/css" href="styles/HomePage.css">
 		<link rel="stylesheet" type="text/css" href="styles/Footer.css">
+		<link rel="stylesheet" type="text/css" href="styles/CommonStyle.css">
 	</head>
 	
 	<body>
 		<!--Header-->
-		<div id="home_header">
+		<div id="header">
 			<h1><center>Weird Lion Studios</center></h1>
 		</div>
 		<!--End of header-->
 		
-		<!--Home Page-->
-		<div id="home_page">
-			<img src="resources/images/WeirdLionLogo.jpg" width="25%" height="25%" alt="Logo" />
-			<p>Welcome to the <b>WLS's Site!</b> We're a group of people interested in programming and science in general.
+		<!--Content-->
+ 		<div id="home_page">
+			<img src="resources/images/WeirdLionLogo.jpg" width="300" height="300" alt="Logo" />
+			<p>Welcome to the <b>WLS's Site!</b> We're a group of people interested in programming and science in general.<br />
 			   We try to stimulate creative ideas in our members, and we work at interesting projects, including several programs.</p>
+			<div id="main_project">
+				<h1>Main project</h1>
+				<div id="project_box">
+					<h2>Polygon writer</h2>
+					<div id="progress_bar_bg">
+						
+					</div>
+				</div>
+			</div>
 		</div>
-		<!--End of Home Page--!>
+ 		<!--End of content--!>
 		
 		<!--Footer (copy and paste on every page)-->
 		<div id="menu">
 			<ul>
 				<li>
 					<center>
-						<a href="index.html">Home</a>
+						<a href="">Home</a>
 					</center>
 				</li>   
 
 				<li>
 					<center>
-						<a href="#">Members</a>
+						<h1>Members</h1>
 					</center>
 					<ul>
-						<li><a href="#">Panoramica</a></li>
+						<li><a href="pages/members/overview.html">Overview</a></li>
 						<li>
-							<a href="#">Venio</a>
+							<a href="pages/members/venio/info.html">Venio</a>
 							<ul>
-								<li><a href="#">Informazioni</a></li>
-								<li><a href="#">Progetti</a></li>
+								<li><a href="pages/members/venio/info.html">About</a></li>
+								<li><a href="pages/members/venio/projects.html">Projects</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="#">Trek</a>
+							<a href="pages/members/trek/info.html">Trek</a>
 							<ul>
-								<li><a href="#">Informazioni</a></li>
-								<li><a href="#">Progetti</a></li>
+								<li><a href="pages/members/trek/info.html">About</a></li>
+								<li><a href="pages/members/trek/projects.html">Projects</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="#">Elia</a>
+							<a href="pages/members/elia/info.html">Elia</a>
 							<ul>
-								<li><a href="#">Informazioni</a></li>
-								<li><a href="#">Progetti</a></li>
+								<li><a href="pages/members/elia/info.html">About</a></li>
+								<li><a href="pages/members/elia/projects.html">Projects</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="#">Steve</a>
+							<a href="pages/members/steve/info.html">Steve</a>
 							<ul>
-								<li><a href="#">Informazioni</a></li>
-								<li><a href="#">Progetti</a></li>
+								<li><a href="pages/members/steve/info.html">About</a></li>
+								<li><a href="pages/members/steve/projects.html">Projects</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="#">Simo</a>
+							<a href="pages/members/simo/info.html">Simo</a>
 							<ul>
-								<li><a href="#">Informazioni</a></li>
-								<li><a href="#">Progetti</a></li>
+								<li><a href="pages/members/simo/info.html">About</a></li>
+								<li><a href="pages/members/simo/projects.html">Projects</a></li>
 							</ul>
 						</li>
-						<li><a href="#">FAQ</a> </li>
+						<li><a href="pages/members/faq.html">FAQ</a> </li>
 					</ul>
 				</li>
 				
-				<li><center><a href="#">Progetti</a></center>
+				<li><center><a href="pages/projects/overview.html">Projects</a></center>
 					<ul>
-						<li><a href="#">Polygon Writer</a></li>
-						<li><a href="#">Recursive</a></li>
-						<li><a href="#">Pi Drawer</a></li>
-						<li><a href="#">Tris</a></li>
-						<li><a href="#">String Visualizer</a></li>
+						<li><a href="pages/projects/overview.html">Overview</a></li>
+						<li><a href="pages/projects/polywriter.html">Polygon Writer</a></li>
+						<li><a href="pages/projects/recursive.html">Recursive</a></li>
+						<li><a href="pages/projects/pidraw.html">Pi Drawer</a></li>
+						<li><a href="pages/projects/checkers.html">Checkers</a></li>
+						<li><a href="pages/projects/stringvis.html">String Visualizer</a></li>
 					</ul>
 				</li>
 
-				<li><center><a href="#">Download</a></center>
+				<li><center><h1>Downloads</h1></center>
 					<ul>
-						<li><a href="pages/programs.html">Programmi</a></li>
-						<li><a href="#">Files</a></li>
+						<li><a href="pages/downloads/programs.html">Programs</a></li>
+						<li><a href="pages/downloads/resources.html">Files</a></li>
 					</ul>
 				</li>
 				
 				<li>
 					<center>
-						<a href="#">News &amp; Eventi</a>
+						<h1>News &amp; Events</h1>
 					</center>
 					<ul>
-						<li><a href="#">Avvisi</a></li>
-						<li><a href="#">Update dei progetti</a></li>
-						<li><a href="#">Eventi</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="pages/news/announcements.html">Announcements</a></li>
+						<li><a href="pages/news/updates.html">Project updates</a></li>
+						<li><a href="pages/news/events.html">Events</a></li>
+						<li><a href="pages/news/blog.html">Blog</a></li>
 					</ul>
 				</li>
 				
-				<li><center><a href="#">Forum</a></center></li>
+				<li><center><a href="pages/chat.html">Chat</a></center></li>
 				<li><center><a href="pages/links.html">Links</a></center></li>
 			</ul>
 		</div>

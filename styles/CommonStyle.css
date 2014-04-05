@@ -1,0 +1,30 @@
+/*Contains all the style elements that pages have in common (e.g. the background), it should be called in all the pages*/
+
+body{
+	margin:0px;
+	background:url("../resources/images/InfoWood.jpg") repeat;
+}
+
+/*Header style*/
+
+#header{
+	height:80px;
+	line-height:10px;
+	width:100%;
+	background:rgba(0,0,0,0.4);
+	border-bottom:1px solid rgba(0,0,0,0.5);
+}
+
+#header h1{
+	display:block;
+	margin:0px 400px 0px;
+	color:#cccccc;
+	margin-top:0px;
+	font:60px arial;
+}
+
+#main h1:hover{
+	color:white;
+}
+
+/*End of header style*/

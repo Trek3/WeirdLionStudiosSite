@@ -1,0 +1,9 @@
+
+#resources_page p{
+	display:block;
+	margin:100px 400px 0px;
+	color:#cccccc;
+	margin-top:100px;
+	font:24px arial;
+	background:rgba(0,0,0,0.4);
+}
